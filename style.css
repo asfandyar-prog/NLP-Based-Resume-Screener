@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #2d07ba;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #013a5c, #025f8f);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Containers */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Features */
+.features {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.features li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Upload Box */
+.upload-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+}
+
+button {
+    padding: 12px;
+    background: #013a5c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #025f8f;
+}
+
+.message {
+    margin-top: 15px;
+    color: red;
+    text-align: center;
+}
+
+/* Result Box */
+.result-box h2 {
+    margin-bottom: 15px;
+}
+
+.result-box p {
+    margin: 8px 0;
+}
+
+.skills,
+.education {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills li,
+.education li {
+    background: #eaf3f9;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #013a5c;
+    color: white;
+    margin-top: 40px;
+}
