@@ -13,7 +13,7 @@ This application is an AI-powered resume screening system that helps automate th
   - Education
 ## Code Explanation Video
 For a visual overview of the project, watch my video on youtube:  
-**[MY_Project_video](https://youtu.be/QJfhBxznZX8?si=ibTUgZPM7Z1Uzq-W)**
+**[MY_Project_video](https://youtu.be/Eb2BE3IZQX8)**
   
 ## Technologies Used
 
@@ -67,3 +67,4 @@ For a visual overview of the project, watch my video on youtube:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
